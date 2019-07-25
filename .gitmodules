@@ -1,0 +1,4 @@
+[submodule "skin.estuary2-extended-s"]
+	path = skin.estuary2-extended-s
+	url = https://github.com/nkvoronov/skin.estuary2-extended.git
+	branch = vleia-s-dev
