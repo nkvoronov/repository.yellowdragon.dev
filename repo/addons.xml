@@ -26,19 +26,9 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="3.0.4.295" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.002" name="Estuary v3 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.pvr.favourites" version="2.0.0"/>
-		<import addon="script.image.resource.select" version="3.0.2"/>
-		<import addon="script.skinshortcuts" version="1.1.5"/>
-		<import addon="script.skin.helper.service" version="1.1.26"/>
-		<import addon="script.skin.helper.skinbackup" version="1.0.20"/>
-		<import addon="script.skin.helper.widgets" version="1.0.39"/>
-		<import addon="script.skin.helper.backgrounds" version="1.0.34"/>
-		<import addon="script.skin.helper.colorpicker" version="1.0.13"/>
-		<import addon="resource.images.skinicons.estuary" version="1.0.0"/>
-		<import addon="resource.images.busyspinners.estuary" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -51,20 +41,20 @@
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Estuary v2 Extended Shortcuts skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="ru_RU">Обложка Estuary v2 Extended Shortcuts. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="uk_UA">Обкладинка Estuary v2 Extended Shortcuts від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<description lang="en_GB">Estuary v2 Extended Shortcuts - is the modernized skin for KODI.</description>
-		<description lang="ru_RU">Estuary v2 Extended Shortcuts - это модернизированная обложка KODI.</description>
-		<description lang="uk_UA">Estuary v2 Extended Shortcuts — це модернізована обкладинка KODI.</description>
-		<disclaimer lang="en_GB">Estuary v2 Extended Shortcuts - is the modernized skin for KODI.</disclaimer>
-		<disclaimer lang="ru_RU">Estuary v2 Extended Shortcuts - это модернизированная обложка KODI.</disclaimer>
-		<disclaimer lang="uk_UA">Estuary v2 Extended Shortcuts — це модернізована обкладинка KODI.</disclaimer>
+		<summary lang="en_GB">Estuary v3 Extended skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="ru_RU">Обложка Estuary v3 Extended. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="uk_UA">Обкладинка Estuary v3 Extended від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<description lang="en_GB">Estuary v3 Extended - is the modernized skin for KODI.</description>
+		<description lang="ru_RU">Estuary v3 Extended - это модернизированная обложка KODI.</description>
+		<description lang="uk_UA">Estuary v3 Extended — це модернізована обкладинка KODI.</description>
+		<disclaimer lang="en_GB">Estuary v3 Extended - is the modernized skin for KODI.</disclaimer>
+		<disclaimer lang="ru_RU">Estuary v3 Extended - это модернизированная обложка KODI.</disclaimer>
+		<disclaimer lang="uk_UA">Estuary v3 Extended — це модернізована обкладинка KODI.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
 		<email>nkvoronov@gmail.com</email>
-		<source>https://github.com/nkvoronov/skin.estuary2-extended.git</source>
+		<source>https://github.com/nkvoronov/skin.estuary3-extended.git</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
