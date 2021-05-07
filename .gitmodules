@@ -2,3 +2,7 @@
 	path = skin.estuary3-extended
 	url = https://github.com/nkvoronov/skin.estuary3-extended.git
 	branch = vmatrix-dev
+[submodule "script.skin.utils"]
+	path = script.skin.utils
+	url = https://github.com/nkvoronov/script.skin.utils.git
+	branch = vmatrix-dev

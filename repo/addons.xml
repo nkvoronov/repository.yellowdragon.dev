@@ -26,6 +26,31 @@
 	</extension>
 </addon>
 
+	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.0.0" provider-name="marcelveldt, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+
+	<extension point="xbmc.python.library" library="default.py" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Helper utils for Kodi skins</summary>
+		<summary lang="ru_RU">Утилиты для KODI обложек</summary>
+		<summary lang="uk_UA">Утиліти для KODI обкладинок</summary>
+		<description lang="en_GB">Helper utils for Kodi skins</description>
+		<description lang="ru_RU">Утилиты для KODI обложек</description>
+		<description lang="uk_UA">Утиліти для KODI обкладинок</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum></forum>
+		<email>nkvoronov@gmail.com</email>
+		<website></website>
+		<source>https://github.com/nkvoronov/script.skin.utils.git</source>
+	</extension>
+</addon>
+
 <addon id="skin.estuary3-extended" version="3.0.5.003" name="Estuary v3 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
