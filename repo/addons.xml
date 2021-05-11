@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.0.0" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.1.0" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -48,10 +48,14 @@
 		<email>nkvoronov@gmail.com</email>
 		<website></website>
 		<source>https://github.com/nkvoronov/script.skin.utils.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.003" name="Estuary v3 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.005" name="Estuary v3 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
