@@ -105,7 +105,7 @@ class Generator:
 
         # clear repos dir
         #os.system('rm -rf ' + self.output_path)
-        shutil.rmtree(self.output_path, ignore_errors=True)
+        #shutil.rmtree(self.output_path, ignore_errors=True)
 
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
@@ -115,7 +115,7 @@ class Generator:
 
         addonid=self.config.get('addon', 'id')
         #os.system('rm -rf ' + addonid)
-        shutil.rmtree(self.output_path, ignore_errors=True)
+        #shutil.rmtree(self.output_path, ignore_errors=True)
 
         # save current revision + 1
         if os.path.isfile( self.rev_path ):
