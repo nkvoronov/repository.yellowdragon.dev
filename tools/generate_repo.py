@@ -105,7 +105,8 @@ class Generator:
 
         # clear repos dir
         #os.system('rm -rf ' + self.output_path)
-        #shutil.rmtree(self.output_path, ignore_errors=True)
+        print(self.output_path)
+        shutil.rmtree(self.output_path)
 
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
