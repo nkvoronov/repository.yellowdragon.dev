@@ -104,7 +104,8 @@ class Generator:
         self._update_submodules()
 
         # clear repos dir
-        os.system('rm -rf ' + self.output_path)
+        #os.system('rm -rf ' + self.output_path)
+        os.system('rd -r ' + self.output_path)
 
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
@@ -113,7 +114,8 @@ class Generator:
     def _post_run ( self ):
 
         addonid=self.config.get('addon', 'id')
-        os.system('rm -rf ' + addonid)
+        #os.system('rm -rf ' + addonid)
+        os.system('rd -r ' + self.output_path)
 
         # save current revision + 1
         if os.path.isfile( self.rev_path ):
