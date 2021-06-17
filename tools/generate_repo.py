@@ -104,8 +104,7 @@ class Generator:
         self._update_submodules()
 
         # clear repos dir
-        #os.system('rm -rf ' + self.output_path)
-        print(self.output_path)
+        print('Delete - ' + self.output_path)
         shutil.rmtree(self.output_path)
 
         # create output  path if it does not exists
@@ -115,8 +114,8 @@ class Generator:
     def _post_run ( self ):
 
         addonid=self.config.get('addon', 'id')
-        #os.system('rm -rf ' + addonid)
-        #shutil.rmtree(self.output_path, ignore_errors=True)
+        print('Delete - ' + addonid)
+        shutil.rmtree(addonid)
 
         # save current revision + 1
         if os.path.isfile( self.rev_path ):
