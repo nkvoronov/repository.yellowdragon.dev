@@ -6,3 +6,7 @@
 	path = script.skin.utils
 	url = https://github.com/nkvoronov/script.skin.utils.git
 	branch = vmatrix-dev
+[submodule "skin.confluence3-extended"]
+	path = skin.confluence3-extended
+	url = https://github.com/nkvoronov/skin.confluence3-extended.git
+	branch = vmatrix-dev
