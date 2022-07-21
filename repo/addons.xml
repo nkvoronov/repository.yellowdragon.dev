@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="6.0.0.028" provider-name="YLLOW_DRAGON, phil65 (Philipp Temminghoff)">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="6.0.0.029" provider-name="YLLOW_DRAGON, phil65 (Philipp Temminghoff)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.25"/>
@@ -136,7 +136,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.038" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.039" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
