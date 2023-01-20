@@ -1,0 +1,16 @@
+[submodule "skin.estuary3-extended"]
+	path = skin.estuary3-extended
+	url = https://github.com/nkvoronov/skin.estuary3-extended.git
+	branch = vnexus-dev
+[submodule "script.skin.utils"]
+	path = script.skin.utils
+	url = https://github.com/nkvoronov/script.skin.utils.git
+	branch = vnexus-dev
+[submodule "skin.confluence3-extended"]
+	path = skin.confluence3-extended
+	url = https://github.com/nkvoronov/skin.confluence3-extended.git
+	branch = vnexus-dev
+[submodule "script.extendedinfo"]
+	path = script.extendedinfo
+	url = https://github.com/nkvoronov/script.extendedinfo.git
+	branch = vnexus-dev
